@@ -1,0 +1,16 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Container } from '@mui/material';
+import StudentList from '../pages/studentList';
+import './App.css';
+function App() {
+  return (
+    <>
+      <Container maxWidth="md">
+        <StudentList />
+      </Container>
+    </>
+  );
+};
+
+export default App;
