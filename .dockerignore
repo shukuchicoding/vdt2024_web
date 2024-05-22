@@ -1,3 +1,7 @@
 node_modules
 .history
 .env
+.git
+.gitignore
+README.md
+build
