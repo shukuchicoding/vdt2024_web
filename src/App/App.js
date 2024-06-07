@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Container } from '@mui/material';
 import StudentList from '../pages/studentList';
 import './App.css';
