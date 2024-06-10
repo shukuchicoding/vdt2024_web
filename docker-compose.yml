@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   web:
-    image: web
+    image: vietanhhust1404/web
     build:
       context: .
       dockerfile: ./Dockerfile
