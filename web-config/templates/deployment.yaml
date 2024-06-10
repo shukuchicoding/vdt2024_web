@@ -21,3 +21,6 @@ spec:
           ports:
             - containerPort: {{ .Values.service.targetport }}
             # - containerPort: 3000
+          env:
+            - name: WEB
+              value: {{ .Values.env.API }}
