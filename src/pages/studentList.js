@@ -22,7 +22,8 @@ import {
     MenuItem,
 } from '@mui/material';
 
-const API_URL = "http://localhost:5000";
+// const API_URL = "http://localhost:5000";
+const API_URL = "http://192.168.49.2:30415"
 
 const StudentList = () => {
     const [students, setStudents] = useState([]);
