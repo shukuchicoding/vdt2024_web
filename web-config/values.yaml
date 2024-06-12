@@ -10,10 +10,10 @@ service:
   type: NodePort
   port: 3000
   targetport: 3000
-  nodePort: 30417
+  nodePort: 30414
 
 env:
-  API: http://192.168.49.2:30416
+  API: http://192.168.49.2:30415
 
 container:
   name: web
