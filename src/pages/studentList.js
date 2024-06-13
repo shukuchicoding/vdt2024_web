@@ -96,7 +96,7 @@ const StudentList = () => {
         setOpenAddDialog(false);
         setNewStudent({
             name: '',
-            age: 1,
+            age: 0,
             email: '',
             phoneNumber: '',
             gender: '',
