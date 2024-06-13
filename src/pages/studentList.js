@@ -215,6 +215,7 @@ const StudentList = () => {
                             >
                                 <MenuItem value="Nam">Nam</MenuItem>
                                 <MenuItem value="Nữ">Nữ</MenuItem>
+                                <MenuItem value="Khác">Khác</MenuItem>
                             </Select>
                         </FormControl>
                         <TextField
@@ -312,6 +313,7 @@ const StudentList = () => {
                                 >
                                     <MenuItem value="Nam">Nam</MenuItem>
                                     <MenuItem value="Nữ">Nữ</MenuItem>
+                                    <MenuItem value="Khác">Khác</MenuItem>
                                 </Select>
                             </FormControl>
                             <TextField
